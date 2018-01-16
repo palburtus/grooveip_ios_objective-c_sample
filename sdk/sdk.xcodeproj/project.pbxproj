@@ -15,6 +15,7 @@
 		B608A7F51FE9C50D0031089F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B608A7F41FE9C50D0031089F /* main.m */; };
 		B608A7FF1FE9C50E0031089F /* sdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B608A7FE1FE9C50E0031089F /* sdkTests.m */; };
 		B608A80A1FE9C50E0031089F /* sdkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B608A8091FE9C50E0031089F /* sdkUITests.m */; };
+		B68E5742200EA544003BA425 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68E5741200EA544003BA425 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B608A8051FE9C50E0031089F /* sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sdkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B608A8091FE9C50E0031089F /* sdkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sdkUITests.m; sourceTree = "<group>"; };
 		B608A80B1FE9C50E0031089F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68E5740200EA544003BA425 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		B68E5741200EA544003BA425 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				B608A7F01FE9C50D0031089F /* LaunchScreen.storyboard */,
 				B608A7F31FE9C50D0031089F /* Info.plist */,
 				B608A7F41FE9C50D0031089F /* main.m */,
+				B68E5740200EA544003BA425 /* SearchViewController.h */,
+				B68E5741200EA544003BA425 /* SearchViewController.m */,
 			);
 			path = sdk;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				B608A7EA1FE9C50D0031089F /* ViewController.m in Sources */,
 				B608A7F51FE9C50D0031089F /* main.m in Sources */,
+				B68E5742200EA544003BA425 /* SearchViewController.m in Sources */,
 				B608A7E71FE9C50D0031089F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

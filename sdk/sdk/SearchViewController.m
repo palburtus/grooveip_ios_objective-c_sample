@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  SearchViewController.m
 //  sdk
 //
-//  Created by Alburtus, Patrick on 12/19/17.
-//  Copyright © 2017 SNRB Labs LLC. All rights reserved.
+//  Created by Alburtus, Patrick on 1/16/18.
+//  Copyright © 2018 SNRB Labs LLC. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SearchViewController.h"
 
-@interface ViewController ()
+@interface SearchViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SearchViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,11 +23,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)onSearchNumberPressed:(id)sender {
-    
-    
 }
 
 @end
