@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103FBCA320211885003C80E8 /* ApiDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 103FBCA220211885003C80E8 /* ApiDataManager.m */; };
 		B608A7E71FE9C50D0031089F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B608A7E61FE9C50D0031089F /* AppDelegate.m */; };
 		B608A7EA1FE9C50D0031089F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B608A7E91FE9C50D0031089F /* ViewController.m */; };
 		B608A7ED1FE9C50D0031089F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B608A7EB1FE9C50D0031089F /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		103FBCA120211885003C80E8 /* ApiDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiDataManager.h; sourceTree = "<group>"; };
+		103FBCA220211885003C80E8 /* ApiDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiDataManager.m; sourceTree = "<group>"; };
 		B608A7E21FE9C50D0031089F /* sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B608A7E51FE9C50D0031089F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B608A7E61FE9C50D0031089F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				B608A7F41FE9C50D0031089F /* main.m */,
 				B68E5740200EA544003BA425 /* SearchViewController.h */,
 				B68E5741200EA544003BA425 /* SearchViewController.m */,
+				103FBCA120211885003C80E8 /* ApiDataManager.h */,
+				103FBCA220211885003C80E8 /* ApiDataManager.m */,
 			);
 			path = sdk;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				B608A7EA1FE9C50D0031089F /* ViewController.m in Sources */,
 				B608A7F51FE9C50D0031089F /* main.m in Sources */,
+				103FBCA320211885003C80E8 /* ApiDataManager.m in Sources */,
 				B68E5742200EA544003BA425 /* SearchViewController.m in Sources */,
 				B608A7E71FE9C50D0031089F /* AppDelegate.m in Sources */,
 			);
